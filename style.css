@@ -25,11 +25,9 @@ span{
     height: 70px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center ;
     background-color: rgb(34, 33, 33);
     position: fixed;
-    
-    
 }
 .logo{
     color: red;
@@ -38,11 +36,12 @@ span{
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: 2px;
+    
 }
 .logo img{
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
    
 }
 .conteudo .list-menu{
@@ -58,6 +57,7 @@ span{
     text-transform: uppercase;
     font-weight: 500;
     transition: all 200ms ease-in;
+
 }
 .conteudo .list-menu li a:hover{
     background-color:#fafafa;
@@ -77,28 +77,32 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
-.pagina1 .conteudo{
+.pagina1 .conteudo1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.pagina1 h1{
+
+/*.pagina1 h1{
     color: rgb(226, 34, 34);
     font-size: 4rem;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 2rem;
     font-family: 'Indie Flower', cursiva ;
-}
+}*/
+
 .pagina1 h2{
     color: aliceblue;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 300px;
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-family: 'Indie Flower', cursiva ;
+    text-align: center;
 }
 .btn button{
     width: 200px;
@@ -122,7 +126,6 @@ span{
 }
 
 .pagina2 {
-   background-color: rgba(68, 66, 66, 0.719);
    width: 100%;
    padding-bottom: 4rem;
    display: flex;
@@ -147,33 +150,29 @@ span{
     border: 3px solid black;
 }
 .pagina2 h2{
-    color: red;
+    color: black;
     font-size: 3rem;
     margin-bottom: 1rem;
     font-family:'Indie Flower', cursiva  ;
 }
 .pagina2 p{
     text-align: center;
-    color: aliceblue;
+    color: red;
     font-size: 1.6rem;
     margin-right: 2.5rem;
 }
-.mapa-da-vila{
+.mapa{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-color: #2b2929;
 }
-.mapa-da-vila h2{
+.mapa h2{
     color: rgb(248, 3, 3);
     text-align: center;
     font-size: 4rem;
     text-transform: uppercase;
     font-family: 'Indie Flower', cursiva;
-}
-.mapa{
-    display: flex;
 }
 
 footer{
@@ -296,16 +295,16 @@ footer{
         align-items: center;
     }
 
-    .conteudo1 h2{
+    .conteudo h2{
         width: 200px;
         text-align: center;   
      }
 }
 @media (max-width:440px) {
-    .conteudo1 h1{
+    .conteudo h1{
         font-size: 3rem;
     }
-    .conteudo1 h2{
+    .conteudo h2{
         font-size: 2rem;
     }
     .pagina2 img {
@@ -330,7 +329,6 @@ footer{
 
 
 .festas{
-    background-color:  #2b2929;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -346,7 +344,7 @@ footer{
    font-size: 2rem;
 }
 .card{
-    background-color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(17, 17, 17, 0.26);
     display: flex;
     flex-direction: column;
     justify-content: center;
